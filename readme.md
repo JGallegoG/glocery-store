@@ -5,11 +5,15 @@ Este proyecto presenta un encabezado (*header*) de una tienda de comestibles onl
 
 ## Tecnologías utilizadas
 - **HTML**: Estructura semántica del contenido del header.
-- **CSS**: Para la estilización y diseño visual del encabezado.
+- **CSS**: Para dar estilos y diseño visual del encabezado.
 - **Sass**: Preprocesador de CSS utilizado para modular y hacer más eficiente la creación de estilos.
+
+---
 
 ## Vista previa del proyecto
 ![Vista previa glocery-store](/img//Glocery-store.png)
+
+---
 
 ## Colaboraciones
 Se aceptan contribuciones para mejorar la funcionalidad del encabezado o la interfaz de usuario en general. También puedes proponer nuevas ideas o mejoras.
