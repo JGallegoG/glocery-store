@@ -1,0 +1,29 @@
+nav.container_nav{
+    ul{
+       @include reset-list();
+       gap: 50px;
+       a{
+        color: $grey;
+        font-weight: 300;
+        text-decoration: none;
+        transition: .3s ease;
+
+        &.active, &:hover{
+            color: $orange;
+            position: relative;
+
+            &::before{
+                content: '';
+                position: absolute;
+                height: 2px;
+                background-color: $orange;
+                width: 80%;
+                bottom: -6px;
+                left: 10%;
+                
+            }
+        }
+       }
+    
+    }
+}

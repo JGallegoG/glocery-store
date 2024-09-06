@@ -1,0 +1,12 @@
+a{
+    &.btn{
+        @include btn(); 
+        transition: .3s ease; 
+    }
+    &.btn:hover{
+        background-color: $white;
+        color: $orange;
+        border: 1px solid $orange;
+    }
+
+}
